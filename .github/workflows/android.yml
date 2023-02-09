@@ -2,7 +2,7 @@ name: All PRs verfication
 
 on:
   pull_request:
-    branches: [ "**" ]
+    branches: [ "master" ]
 
 jobs:
   pr_verification:
